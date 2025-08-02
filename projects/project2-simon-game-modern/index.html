@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game - Memory Game</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Game Header -->
+        <header class="game-header">
+            <h1 class="game-title">SIMON</h1>
+            <p class="game-subtitle">Memory Game</p>
+        </header>
+
+        <!-- Game Board -->
+        <div class="game-board">
+            <div class="simon-container">
+                <div class="simon-button" data-color="green" id="green"></div>
+                <div class="simon-button" data-color="red" id="red"></div>
+                <div class="simon-button" data-color="yellow" id="yellow"></div>
+                <div class="simon-button" data-color="blue" id="blue"></div>
+
+                <div class="center-circle">
+                    <div class="game-info">
+                        <div class="level-display">
+                            <span class="level-label">Level</span>
+                            <span class="level-number" id="level">0</span>
+                        </div>
+                        <button class="start-btn" id="startBtn">START</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Status and Score -->
+        <div class="game-status-container">
+            <div class="game-status" id="gameStatus">Ready! Press the button to start</div>
+        </div>
+
+        <!-- Game Controls -->
+        <div class="game-controls">
+            <div class="score-board">
+                <div class="score-item">
+                    <span class="score-label">High Score</span>
+                    <span class="score-value" id="highScore">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Current Score</span>
+                    <span class="score-value" id="currentScore">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

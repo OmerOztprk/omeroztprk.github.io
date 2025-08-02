@@ -23,5 +23,21 @@ export const cardsData = [
       { url: "#", icon: "fas fa-play-circle" },
       { url: "https://github.com/OmerOztprk/portfolio-website", icon: "fab fa-github" },
     ],
-  }
+  },
+  {
+    title: "Simon Game Modern",
+    slug: "simon-game-modern",
+    tags: "HTML5, CSS3, JavaScript",
+    description: "Modern tasarım anlayışıyla geliştirilen bu interaktif Simon hafıza oyunu, oyuncuların rastgele oluşturulan renk dizilerini takip ederek hafıza becerilerini test etmelerini sağlar. Proje; Web Audio API ile ses efektleri, responsive tasarım, klavye kontrolleri ve localStorage ile yüksek skor takibi gibi işlevleri içerir. Gelişmiş CSS animasyonları ve modern JavaScript teknikleri ile akıcı bir oyun deneyimi sunar. Ayrıca, Progressive Web App özellikleriyle tüm cihazlarda yüksek performansla çalışır.",
+    category: "frontend, game",
+    images: [
+      "./assets/images/project2-simon-game-modern/image1.png",
+      "./assets/images/project2-simon-game-modern/image2.png",
+      "./assets/images/project2-simon-game-modern/image3.png",
+    ],
+    links: [
+      { url: "./projects/project2-simon-game-modern/", icon: "fas fa-play-circle" },
+      { url: "https://github.com/OmerOztprk/simon-game-modern", icon: "fab fa-github" },
+    ],
+  },
 ];
